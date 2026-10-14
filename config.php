@@ -7,10 +7,10 @@ declare(strict_types=1);
 const APP_NAME  = 'StudentInfo PCNL';
 const APP_SCHOOL = 'Philippine College of Northwestern Luzon';
 
-$host = 'localhost';
-$dbname = 'studentinfo';
-$dbuser = 'root';
-$dbpass = '';
+$host = 'sql305.infinityfree.com';
+$dbname = 'if0_43172667_student_info';
+$dbuser = 'if0_43172667';
+$dbpass = '6Fh4g1J8eVYpwhs';
 
 session_set_cookie_params(['httponly' => true, 'samesite' => 'Lax', 'secure' => !empty($_SERVER['HTTPS'])]);
 session_start();
